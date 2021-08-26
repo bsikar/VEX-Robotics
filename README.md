@@ -1,5 +1,5 @@
-# VEX_2020-2021
-Code code for VEX Robotics: Change Up
+# VEX_Robotics
+Code code for VEX Robotics
 
 ## TODO
 **Hardware**
