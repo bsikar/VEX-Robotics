@@ -32,7 +32,10 @@ private:
     }
 
     point getCubicBezier(double t) {
-        return getQuadraticBezier(t);
+        point B1 = getQuadraticBezier(P0, P1, P2, t);
+        point B2 = getQuadraticBezier(P1, P2, P3, t);
+
+        return pointAdd(pointTimesScalar(B1, 1 - t), pointTimesScalar(B2, t));
     }
 
 public:
