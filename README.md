@@ -1,4 +1,4 @@
-# VEX_Robotics
+# VEX-Robotics
 Code code for VEX Robotics
 
 ## TODO
